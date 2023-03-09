@@ -86,3 +86,11 @@
 // }
 
 
+function sayHello () {
+    console.log("hello wold!");
+}
+
+sayHello();
+
+
+
