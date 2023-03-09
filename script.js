@@ -86,11 +86,14 @@
 // }
 
 
-function sayHello () {
-    console.log("hello wold!");
+// function sayHello () {
+//     console.log("hello wold!");
+// }
+
+// sayHello();
+
+
+function sayHi(name) {
+    console.log("hi " + name);
 }
-
-sayHello();
-
-
-
+sayHi("Jaco");
