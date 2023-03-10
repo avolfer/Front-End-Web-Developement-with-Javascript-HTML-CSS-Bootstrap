@@ -111,3 +111,10 @@
 
 // bmi(1.85, 100);
 
+
+
+function cube(number) {
+    console.log(number * number * number);
+}
+
+cube(4);
