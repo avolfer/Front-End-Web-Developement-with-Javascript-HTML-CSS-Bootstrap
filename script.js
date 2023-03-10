@@ -93,7 +93,21 @@
 // sayHello();
 
 
-function sayHi(name) {
-    console.log("hi " + name);
-}
-sayHi("Jaco");
+// function sayHi(name) {
+//     console.log("hi " + name);
+// }
+// sayHi("Jaco");
+
+// function cube(number) {
+//     console.log(number * number * number);
+// }
+
+// cube(3);
+
+
+// function bmi(lenght, weight) {
+//     console.log(weight / (lenght * lenght));
+// }
+
+// bmi(1.85, 100);
+
