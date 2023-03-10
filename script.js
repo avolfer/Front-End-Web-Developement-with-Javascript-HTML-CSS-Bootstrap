@@ -113,8 +113,53 @@
 
 
 
-function cube(number) {
-    console.log(number * number * number);
-}
+// function cube(number) {
+//     return(number * number * number);
+// }
 
-cube(4);
+// let num = cube(5);
+
+// console.log(num)
+
+
+// function calAge(birthYear) {
+//     return 2023 - birthYear;
+// }
+
+// let calAge = function () {
+//     return 2023 - birthYear;
+// }
+
+
+
+
+// function subtraction(x, y) {
+//     return (x - y);
+// }
+
+// console.log(subtraction(10, 2));
+
+
+// function isOdd(number) {
+//     if (number % 2 !== 0) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+
+// console.log(isOdd(5));
+
+
+
+// let addition = function (number) {
+//     let res = 0;
+//     for (let i = 1; i <= number; i++) {
+//         res = res + i;
+//     }
+//     return res;
+// }
+
+// console.log(addition(3));
+
+
