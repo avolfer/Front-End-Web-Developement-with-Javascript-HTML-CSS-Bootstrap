@@ -163,3 +163,4 @@
 // console.log(addition(3));
 
 
+// javascript scope
