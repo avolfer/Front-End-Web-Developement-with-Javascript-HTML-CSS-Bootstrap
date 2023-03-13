@@ -146,14 +146,32 @@
 
 // javascript scope
 
+// var studentList = ["Jacob", "Any", "Maddy"];
+
+// // console.log(studentList[1]);
+
+// studentList[0] = "Nora";
+
+// console.log(studentList[0])
+
+
+// studentList[3] = "Harry";
+// console.log(studentList);
+
+
+// var commonData = ["Jacob", 25, true, null];
+// commonData[1];
+
+// var cars = ["Mercedes", "Audi", "BMW", "Volvo"];
+// var carsLength = cars.length;
+
+// console.log(carsLength)
+
+
 var studentList = ["Jacob", "Any", "Maddy"];
 
-// console.log(studentList[1]);
+//push
+studentList.push("Lice");
 
-studentList[0] = "Nora";
-
-console.log(studentList[0])
-
-
-studentList[3] = "Harry";
 console.log(studentList);
+
