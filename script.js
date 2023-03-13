@@ -168,10 +168,28 @@
 // console.log(carsLength)
 
 
-var studentList = ["Jacob", "Any", "Maddy"];
+// var studentList = ["Jacob", "Any", "Maddy"];
 
-//push
-studentList.push("Lice");
+// //push
+// studentList.push("Lice");
+// console.log(studentList);
 
-console.log(studentList);
+// //pop
+// studentList.pop();
+// console.log(studentList);
 
+// //unshift
+// studentList.unshift("Harry");
+// console.log(studentList);
+
+// //
+// studentList.shift();
+// console.log(studentList);
+
+// //indexOf
+// console.log(studentList.indexOf("Any"));
+
+//slice
+var friends = ["Ross", "Rachel", "Joey","Pota"];
+var closefriends = friends.slice(1, 3);
+console.log(closefriends);
