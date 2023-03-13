@@ -189,7 +189,38 @@
 // //indexOf
 // console.log(studentList.indexOf("Any"));
 
-//slice
-var friends = ["Ross", "Rachel", "Joey","Pota"];
-var closefriends = friends.slice(1, 3);
-console.log(closefriends);
+// //slice
+// var friends = ["Ross", "Rachel", "Joey","Pota"];
+// var closefriends = friends.slice(1, 3);
+// console.log(closefriends);
+
+
+// var books = ["harry potter", "Hobbit", "hunger games", "litle prince"];
+// console.log(books[books.length - 1]);
+
+
+//array iteration
+// let books = ["harry potter", "Hobbit", "hunger games", "litle prince"];
+
+// for (let i = 0; i < books.length; i++) {
+//     console.log(books[i]);
+// }
+
+// books.forEach(function (book) {
+//     console.log(book);
+// });
+
+let array1 = [];
+for (let i = 0; i <= 20; i++) {
+    array1.push(i);
+}
+
+console.log(array1);
+
+
+array1.forEach(function (x) {
+    if (x % 5 === 0) {
+        console.log(x);
+    }
+});
+
