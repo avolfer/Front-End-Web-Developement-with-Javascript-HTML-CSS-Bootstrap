@@ -146,10 +146,14 @@
 
 // javascript scope
 
-// var studentList = ["Jacob", "Any", "Maddy"];
+var studentList = ["Jacob", "Any", "Maddy"];
 
 // console.log(studentList[1]);
 
 studentList[0] = "Nora";
 
 console.log(studentList[0])
+
+
+studentList[3] = "Harry";
+console.log(studentList);
