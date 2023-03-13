@@ -22,14 +22,12 @@
 //     console.log("I don't know the day");
 // }
 
-
 // let number = 1;
 
 // while (number < 11) {
 //     console.log(number);
 //     number+=2;
 // }
-
 
 // let number = 132;
 
@@ -46,7 +44,6 @@
 //     }
 //     count++;
 // }
-
 
 // for (let i = 1; i < 11; i++) {
 //     console.log(i);
@@ -68,15 +65,12 @@
 //     }
 // }
 
-
 // for (let i = 1; i <= 10; i++) {
 //     if (i % 2 !== 0) {
 //         continue;
 //     }
 //     console.log(i);
 // }
-
-
 
 // for (let i = 1; i <= 10; i++) {
 //     if (i % 2 === 0) {
@@ -85,13 +79,11 @@
 //     }
 // }
 
-
 // function sayHello () {
 //     console.log("hello wold!");
 // }
 
 // sayHello();
-
 
 // function sayHi(name) {
 //     console.log("hi " + name);
@@ -104,14 +96,11 @@
 
 // cube(3);
 
-
 // function bmi(lenght, weight) {
 //     console.log(weight / (lenght * lenght));
 // }
 
 // bmi(1.85, 100);
-
-
 
 // function cube(number) {
 //     return(number * number * number);
@@ -121,7 +110,6 @@
 
 // console.log(num)
 
-
 // function calAge(birthYear) {
 //     return 2023 - birthYear;
 // }
@@ -130,15 +118,11 @@
 //     return 2023 - birthYear;
 // }
 
-
-
-
 // function subtraction(x, y) {
 //     return (x - y);
 // }
 
 // console.log(subtraction(10, 2));
-
 
 // function isOdd(number) {
 //     if (number % 2 !== 0) {
@@ -150,8 +134,6 @@
 
 // console.log(isOdd(5));
 
-
-
 // let addition = function (number) {
 //     let res = 0;
 //     for (let i = 1; i <= number; i++) {
@@ -162,5 +144,8 @@
 
 // console.log(addition(3));
 
-
 // javascript scope
+
+var studentList = ["Jacob", "Any", "Maddy"];
+
+console.log(studentList[1]);
