@@ -210,17 +210,22 @@
 //     console.log(book);
 // });
 
-let array1 = [];
-for (let i = 0; i <= 20; i++) {
-    array1.push(i);
-}
+// let array1 = [];
+// for (let i = 0; i <= 20; i++) {
+//     array1.push(i);
+// }
 
-console.log(array1);
+// console.log(array1);
 
 
-array1.forEach(function (x) {
-    if (x % 5 === 0) {
-        console.log(x);
-    }
-});
+// array1.forEach(function (x) {
+//     if (x % 5 === 0) {
+//         console.log(x);
+//     }
+// });
+
+
+//Objects
+
+
 
