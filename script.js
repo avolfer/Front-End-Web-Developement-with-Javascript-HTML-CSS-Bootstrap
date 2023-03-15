@@ -225,7 +225,25 @@
 // });
 
 
+
+
+
+
+
+
+
+
 //Objects
 
+let student1 = [
+    "Jacob",
+    36,
+    "IT dev",
+]
 
+let student2 = [
+    33,
+    "dev be",
+    "tom",
+]
 
