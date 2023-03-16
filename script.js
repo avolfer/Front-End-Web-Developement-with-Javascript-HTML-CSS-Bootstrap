@@ -242,8 +242,9 @@ let student1 = [
 ]
 
 let student2 = [
-    33,
-    "dev be",
-    "tom",
+    age = 32,
+    firstName = "Jacob",
+    city = "Gdańsk",
 ]
 
+console.log(student2[city]);
