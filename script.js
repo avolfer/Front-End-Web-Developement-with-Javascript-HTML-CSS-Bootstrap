@@ -257,14 +257,28 @@
 // console.log(Leonard.age);
 
 
-let universities = {
-    name: "CKZIU",
-    hasGone: false,
-    year: 2023,
-};
+let universities = [
+    {
+        name: "CKZIU",
+        year: 2023,
+        hasGone: true,
+    },
+    {
+        name: "ZAK",
+        year: 2024,
+        hasGone: false,
+    },
+    {
+        name: "nr.48",
+        year: 2019,
+        hasGone: true,
+    }
+]
 
-if (universities.hasGone === true) {
-    console.log(universities.name + " " + universities.year);
-} else {
-    console.log(universities.name);
-}
+universities.forEach(function (university) {
+    if (university.hasGone === true) {
+        console.log(university.name + university.year);
+    } else {
+        console.log(university.name);
+    }
+});
