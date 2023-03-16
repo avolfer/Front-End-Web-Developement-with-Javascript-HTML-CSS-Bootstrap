@@ -235,16 +235,10 @@
 
 //Objects
 
-let student1 = [
-    "Jacob",
-    36,
-    "IT dev",
-]
+let student = {
+    name: "Jacob",
+    age: 19,
+    city: "Gdynia",
+};
 
-let student2 = [
-    age = 32,
-    firstName = "Jacob",
-    city = "Gdańsk",
-]
-
-console.log(student2[city]);
+console.log(student["name"]);
