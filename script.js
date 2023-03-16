@@ -235,10 +235,36 @@
 
 //Objects
 
-let student = {
-    name: "Jacob",
-    age: 19,
-    city: "Gdynia",
+// let student = {
+//     name: "Jacob",
+//     age: 19,
+//     city: "Gdynia",
+// };
+
+// console.log(student["name"]);
+
+// console.log(student.city);
+
+
+
+// let Leonard = {
+//     name: "Leonard",
+//     age: 33,
+// };
+
+// Leonard.age = 31;
+
+// console.log(Leonard.age);
+
+
+let universities = {
+    name: "CKZIU",
+    hasGone: false,
+    year: 2023,
 };
 
-console.log(student["name"]);
+if (universities.hasGone === true) {
+    console.log(universities.name + " " + universities.year);
+} else {
+    console.log(universities.name);
+}
