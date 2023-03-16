@@ -257,28 +257,38 @@
 // console.log(Leonard.age);
 
 
-let universities = [
-    {
-        name: "CKZIU",
-        year: 2023,
-        hasGone: true,
-    },
-    {
-        name: "ZAK",
-        year: 2024,
-        hasGone: false,
-    },
-    {
-        name: "nr.48",
-        year: 2019,
-        hasGone: true,
-    }
-]
+// let universities = [
+//     {
+//         name: "CKZIU",
+//         year: 2023,
+//         hasGone: true,
+//     },
+//     {
+//         name: "ZAK",
+//         year: 2024,
+//         hasGone: false,
+//     },
+//     {
+//         name: "nr.48",
+//         year: 2019,
+//         hasGone: true,
+//     }
+// ]
 
-universities.forEach(function (university) {
-    if (university.hasGone === true) {
-        console.log(university.name + university.year);
-    } else {
-        console.log(university.name);
-    }
-});
+// universities.forEach(function (university) {
+//     if (university.hasGone === true) {
+//         console.log(university.name + university.year);
+//     } else {
+//         console.log(university.name);
+//     }
+// });
+
+
+var colors = {};
+
+colors.orange = { code: 123 };
+
+console.log(colors.orange.code);
+
+colors.black = { code: [4, 5, 6] };
+console.log(colors.black.code[1]);
