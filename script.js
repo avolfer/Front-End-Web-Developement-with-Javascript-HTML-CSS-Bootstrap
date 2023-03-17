@@ -292,3 +292,11 @@
 
 // colors.black = { code: [4, 5, 6] };
 // console.log(colors.black.code[1]);
+
+let Sheldon = {
+    say: function () {
+        console.log("helooo!!");
+    }
+};
+
+Sheldon.say();
