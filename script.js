@@ -284,11 +284,11 @@
 // });
 
 
-var colors = {};
+// var colors = {};
 
-colors.orange = { code: 123 };
+// colors.orange = { code: 123 };
 
-console.log(colors.orange.code);
+// console.log(colors.orange.code);
 
-colors.black = { code: [4, 5, 6] };
-console.log(colors.black.code[1]);
+// colors.black = { code: [4, 5, 6] };
+// console.log(colors.black.code[1]);
