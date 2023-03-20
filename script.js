@@ -300,3 +300,7 @@
 // };
 
 // Sheldon.say();
+
+
+
+console.log(this);
