@@ -273,7 +273,7 @@
 //         year: 2019,
 //         hasGone: true,
 //     }
-// ]
+// ];
 
 // universities.forEach(function (university) {
 //     if (university.hasGone === true) {
