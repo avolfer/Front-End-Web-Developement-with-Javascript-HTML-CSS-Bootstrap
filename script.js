@@ -305,19 +305,19 @@
 
 // console.log(this);
 
-function addNumbers(x, y) {
-    console.log(x + y);
-    console.log(this);
-}
+// function addNumbers(x, y) {
+//     console.log(x + y);
+//     console.log(this);
+// }
 
-addNumbers(10, 20);
+// addNumbers(10, 20);
 
-var Raj = {
-    name: "Raj",
-    year: 2000,
-    sayHi: function () {
-        console.log(this);
-    }
-}
+// var Raj = {
+//     name: "Raj",
+//     year: 2000,
+//     sayHi: function () {
+//         console.log(this);
+//     }
+// }
 
-Raj.sayHi();
+// Raj.sayHi();
