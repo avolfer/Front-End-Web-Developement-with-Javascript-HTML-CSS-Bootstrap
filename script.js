@@ -312,3 +312,12 @@ function addNumbers(x, y) {
 
 addNumbers(10, 20);
 
+var Raj = {
+    name: "Raj",
+    year: 2000,
+    sayHi: function () {
+        console.log(this);
+    }
+}
+
+Raj.sayHi();
