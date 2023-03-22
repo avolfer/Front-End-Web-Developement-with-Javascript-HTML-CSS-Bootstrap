@@ -303,4 +303,12 @@
 
 
 
-console.log(this);
+// console.log(this);
+
+function addNumbers(x, y) {
+    console.log(x + y);
+    console.log(this);
+}
+
+addNumbers(10, 20);
+
